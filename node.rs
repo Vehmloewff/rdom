@@ -1,6 +1,5 @@
 use markup5ever_rcdom::{Node as RawNode, NodeData};
-use reqwest::header::CONTENT_DISPOSITION;
-use std::{borrow::Borrow, fmt::Write, rc::Rc};
+use std::{fmt::Write, rc::Rc};
 
 use crate::hierarchy::NodeHierarchyComponent;
 
